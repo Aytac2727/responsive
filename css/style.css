@@ -1,0 +1,45 @@
+
+#slider-middle {
+    margin: 4em 2em;
+}
+
+#slider-middle .middle-img {
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider-middle .middle-img img {
+    transition: 2s;
+}
+
+#slider-middle .middle-img:hover img {
+    transform: scale(1.1);
+}
+
+#slider-middle .mid-text h3 {
+    font-size: 20px;
+    color: #292929;
+}
+
+#slider-middle .mid-text h5 {
+    font-size: 15px;
+}
+
+#slider-middle .mid-text h5:hover {
+    cursor: pointer;
+}
+
+#slider-middle .mid-text h5::after {
+    content: "\f138";
+    font-family: "Font Awesome 5 Pro";
+    color: rgb(218, 23, 23);
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+#slider-middle .mid-text {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
